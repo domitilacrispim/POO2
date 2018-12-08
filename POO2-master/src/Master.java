@@ -1,7 +1,7 @@
 
 public class Master extends Pagamento {
 	public Master() {
-		super(IDPgto.mastercard);
+		super("Mastercard");
 	}
 
 	@Override

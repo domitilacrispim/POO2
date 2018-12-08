@@ -1,9 +1,9 @@
 
 public abstract class Pagamento {
 	protected	Pagamento next ;
-	protected 	IDPgto idepgto;
+	protected 	String idepgto;
 	
-	public Pagamento ( 	IDPgto 	id) {
+	public Pagamento ( 	String 	id) {
 		next = null	;
 		idepgto = id;
 	}
@@ -15,7 +15,7 @@ public abstract class Pagamento {
 			next.setNext(forma);
 		}
 	}
-	public 	void efetuarPagamento(IDPgto id) throws	Exception {
+	public 	void efetuarPagamento(String id) throws	Exception {
 		if 	(podeEfetuarPagamento(id)) {	efetuaPagamento();
 		}
 		else 	{
@@ -26,7 +26,7 @@ public abstract class Pagamento {
 		}
 	}
 	
-	private 	boolean 	podeEfetuarPagamento(IDPgto id) {
+	private 	boolean 	podeEfetuarPagamento(String id) {
 		 if (idepgto == id) {
 			 return	true	;
 		 }

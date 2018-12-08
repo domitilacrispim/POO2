@@ -1,7 +1,7 @@
 
 public class Elo extends Pagamento{
 	public Elo () {
-		super(IDPgto.elo);
+		super("Elo");
 	}
 
 	@Override

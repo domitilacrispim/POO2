@@ -1,7 +1,7 @@
 
 public class Visa extends Pagamento{
 	public Visa() {
-		super(IDPgto.visa);
+		super("Visa");
 	}
 
 	@Override

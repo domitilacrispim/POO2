@@ -1,7 +1,7 @@
 
 public class Dinheiro extends Pagamento{
 	public Dinheiro () {
-		super(IDPgto.dinheiro);
+		super("Dinheiro");
 	}
 
 	@Override
