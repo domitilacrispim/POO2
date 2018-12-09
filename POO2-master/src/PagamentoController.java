@@ -2,12 +2,8 @@
 public class PagamentoController {
 		String pgto;
 		int valor, complemento;
-		public PagamentoController ( String pgto, int valor, int complemento ) {
-			this.pgto=pgto;
-			this.valor=valor;
-			this.complemento=complemento;
-		}
-		public boolean efetuarPagamento() {
+		
+		public boolean efetuarPagamento( String pgto, int valor, int complemento) {
 			// consultar no banco
 			Pagamento bancos = 	new 	Master();
 			bancos.setNext(	new	Visa());
