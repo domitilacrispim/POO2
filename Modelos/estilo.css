@@ -1,0 +1,43 @@
+ul{
+	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;	
+	  font-size:30px; 
+	
+}
+a{
+	text-decoration:none
+}
+p{
+	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;	
+}
+h1{
+	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;	
+	font-size:50px; 
+	
+}
+body { 	background-color: #E6E6FA; 
+}
+img {
+    width:100px;
+    height:100px;
+    
+} 	
+#botao{
+	width:30px;
+  	height:30px;
+}
+div {
+		width: 70%;
+		float: left;
+		}
+
+#menu {
+		width: 30%;
+		margin: 0; padding: 0;
+		float: right;
+		}
+#menu ul li {
+		margin: 0; padding: 0px;
+		border-bottom: 1px solid #CCC;
+		text-align: right;
+		list-style-type: none;
+		}
