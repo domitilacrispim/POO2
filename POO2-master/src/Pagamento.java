@@ -1,3 +1,4 @@
+import java.sql.SQLException;
 
 public abstract class Pagamento {
 	protected	Pagamento next ;
@@ -32,5 +33,5 @@ public abstract class Pagamento {
 		 }
 		 	return	false;
 	}
-	protected 	abstract 	boolean 	efetuaPagamento();
+	protected 	abstract 	boolean 	efetuaPagamento() throws SQLException;
 }
